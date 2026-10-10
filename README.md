@@ -2,7 +2,9 @@
 
 **One-touch endless runner for iOS**
 
-Nunu Run is a fast, colorful casual mobile game built from prototype to App Store submission. The player taps at the right moment to help Nunu turn at corners, stay on the path, and survive as the game gradually speeds up.
+Nunu Run is a fast, colorful casual mobile game taken from initial gameplay concept and prototype through production hardening, App Store review, and public iOS release. The player taps at the right moment to help Nunu turn at corners, stay on the path, and survive as the game gradually speeds up.
+
+**[View Nunu Run on the App Store](https://apps.apple.com/tr/app/nunu-run/id6815031710?l=tr)**
 
 ## Showcase
 
@@ -21,7 +23,7 @@ Nunu Run is a fast, colorful casual mobile game built from prototype to App Stor
 - Defined the retry and failure loop to keep sessions fast and repeatable
 - Balanced player experience and monetization by placing interstitial ads outside active gameplay
 - Added Turkish and English localization plus music and sound controls
-- Took the product from concept and prototype through physical-device QA, TestFlight, and App Store submission
+- Took the product from concept and prototype through physical-device QA, TestFlight, App Store review, and public release
 
 ## Product Decisions
 
@@ -48,7 +50,7 @@ Interstitial frequency was structured around gameplay failures and shown after R
 - Music and sound controls
 - Interstitial monetization flow
 - Consent-aware advertising setup for supported regions
-- Native iOS packaging
+- Native iOS release
 
 ## Tech Stack
 
@@ -68,9 +70,9 @@ The product was refined through repeated hands-on playtesting and physical-devic
 - monetization timing
 - release readiness
 
-The current release does not claim large-scale player-data analysis or production A/B testing; those would be the next validation layer after live distribution.
+The public release does not claim large-scale player-data analysis or production A/B testing. Those remain future validation layers as meaningful live usage data accumulates.
 
-## From Prototype to App Store
+## From Prototype to Live App Store Release
 
 The project was taken through a complete mobile product and release workflow, including:
 
@@ -80,15 +82,17 @@ The project was taken through a complete mobile product and release workflow, in
 - physical-device QA and lifecycle testing
 - TestFlight distribution
 - App Store metadata, privacy, age-rating, and review preparation
+- App Review iteration and release management
 - AdMob production setup
 - Google User Messaging Platform consent flow
 - localization and release hardening
+- public App Store distribution
 
 ## Current Status
 
-**App Store Review — Waiting for Review**
+**Live on the App Store**
 
-The public App Store link will be added after release.
+[Download Nunu Run on the App Store](https://apps.apple.com/tr/app/nunu-run/id6815031710?l=tr)
 
 ## Developer Website
 
@@ -96,4 +100,4 @@ The public App Store link will be added after release.
 
 ---
 
-This repository is a public project showcase. The production game source code is kept private.
+This repository is a public product showcase. The production game source code is kept private.
